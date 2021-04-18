@@ -6,4 +6,4 @@ simple program coded in C that averages ACT score (without including the science
 open the terminal and run the file (ex: `./FILENAME`) or compile it from source (ex: `gcc calc.c`)
 ## Windows:
 if windows throws an error like *"Access Denied"*, put the `.exe` file in a folder and open windows defender and add it in the exclusion list
-Note: if you are gonna compile it from source, compile `calcwindows.c` instead of `calc.c`
+and if you are gonna compile it from source, compile `calcwindows.c` instead of `calc.c`
