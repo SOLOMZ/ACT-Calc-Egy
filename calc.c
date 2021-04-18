@@ -1,7 +1,7 @@
 //BY SOLO 
 #include <stdio.h>
 
-int calca(int t[], int numb);
+int calca(int t[], int numb); int v;
 int calcats(int acvg); int maxsat = 1600; int maxact = 36; int maxgpa = 40;
 double govuno(double sat1s, double sat2s, double gpas, double diff);
 int main (void)
@@ -28,7 +28,7 @@ printf("▄███▄   ▄████▄ ▀▀█████▀   ▄█�
   printf("\nYour ACT 2 score is: %d and your ACT 2 score translated to SAT 2 is: %d\n\n", act2avg, sat2avg); break;
   case 3 :  
                         printf("Enter your SAT 1 score: ");int SAT1; scanf("%d", &SAT1);
-                        printf("Enter your SAT 2 score: ");int SAT2; scanf("%d", &SAT2); int v; if(SAT1 < 1090){v=60;};
+                        printf("Enter your SAT 2 score: ");int SAT2; scanf("%d", &SAT2); 
                         printf("Enter your GPA: ");int gpa; scanf("%d", &gpa); int maxgv = 124;
                         printf("\nThis score is for which university type?:\n 1: Government University\n 2: Private University\n : "); scanf("%d", &choice); 
                         switch(choice){ case 1 : v = 69; break; case 2 : v = 75; break;}; if(SAT1 < 1090){v=60;};
