@@ -10,13 +10,7 @@ double govuno(double sat1s, double sat2s, double gpas, double diff);
 int main (void)
 {
                                                                                                               
-printf("      ██       ▄▄█▀▀▀█▄███▀▀██▀▀███     ▄▄█▀▀▀█▄█     ██     ▀████▀     ▄▄█▀▀▀█▄█   ▀███▀▀▀███  ▄▄█▀▀▀█▄█▀███▀   ▀██▀\n");
-printf("     ▄██▄    ▄██▀     ▀█▀   ██   ▀█   ▄██▀     ▀█    ▄██▄      ██     ▄██▀     ▀█     ██    ▀█▄██▀     ▀█  ███   ▄█\n");
-printf("    ▄█▀██▄   ██▀       ▀    ██        ██▀       ▀   ▄█▀██▄     ██     ██▀       ▀     ██   █  ██▀       ▀   ███ ▄█\n");
-printf("   ▄█  ▀██   ██             ██        ██           ▄█  ▀██     ██     ██              ██████  ██             ████\n");
-printf("   ████████  ██▄            ██        ██▄          ████████    ██     ▄█▄             ██   █  ▄█▄    ▀████    ██\n");
-printf("  █▀      ██ ▀██▄     ▄▀    ██        ▀██▄     ▄▀ █▀      ██   ██    ▄███▄     ▄▀     ██     ▄███▄     ██     ██\n");
-printf("▄███▄   ▄████▄ ▀▀█████▀   ▄████▄        ▀▀█████▀▄███▄   ▄████▄█████████ ▀▀█████▀    ▄██████████ ▀▀███████   ▄████▄\n\n");
+printf("Welcome to ACT Calc Egy!!");
                                                                                                                      
    int choice; int st=0; char *satavg;
    printf("Choose your test!\n 1: Non-Subject Test\n 2: Subject Test\n 3: Score to Tansiq\n : "); scanf_s("%d", &choice); switch(choice){ case 1 :
