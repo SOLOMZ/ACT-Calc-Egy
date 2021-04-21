@@ -1,8 +1,8 @@
 //BY SOLO (WINDOWS VERSION)
 #include <stdio.h>
 #include <windows.h>
-int sleept=9999
-
+int sleept=9999;
+char satavg[255];
 int calca(int t[], int numb); int v;
 //int calcats(int acvg);
 const int maxsat = 1600;const int maxact = 36;const int maxgpa = 40;const int maxgov = 124;
@@ -10,13 +10,13 @@ double govuno(double sat1s, double sat2s, double gpas, double diff);
 int main (void)
 {
                                                                                                               
-printf("Welcome to ACT Calc Egy!!");
+printf("Welcome to ACT Calc Egy!!/n/n");
                                                                                                                      
-   int choice; int st=0; char *satavg;
+   int choice; int st=0;
    printf("Choose your test!\n 1: Non-Subject Test\n 2: Subject Test\n 3: Score to Tansiq\n : "); scanf_s("%d", &choice); switch(choice){ case 1 :
   printf("Enter your ACT 1 Math score: ");int act1[3]; scanf_s("%d", &act1[st]); st++;
   printf("Enter your ACT 1 English score: ");scanf_s("%d", &act1[st]); st++;
-  printf("Enter your ACT 1 Reading score: ");scanf_s("%d", &act1[st]); st++; int act1avg; char *satavg; act1avg = calca(act1,st); /*sat1avg=calcats(act1avg);*/ switch(act1avg){case 9 : satavg = "590~610"; break; case 10 : satavg="620~640"; break; case 11 : satavg="650~680"; break; case 12 : satavg="690~720"; break; case 13 : satavg="730~770"; break; case 14 : satavg="780~820"; break; case 15 : satavg="780~820"; break; case 16 : satavg="880~910"; break; case 17 : satavg="920~950"; break; case 18 : satavg = "960~980"; break; case 19 : satavg ="990~1020"; break; case 20 : satavg="1030~1050"; break; case 21 : satavg="1060~1090"; break; case 22 : satavg="1100~1120"; break; case 23 : satavg="1130~1150"; break; case 24 : satavg="1160~1190"; break; case 25 : satavg="1200~1220"; break; case 26 : satavg="1230~1250"; break; case 27 : satavg="1260~1290"; break; case 28 : satavg="1300~1320"; break; case 29 : satavg="1330~1350"; break; case 30 : satavg="1360~1380"; break; case 31 : satavg="1390~1410"; break; case 32 : satavg="1420~1440"; break; case 33 : satavg="1450~1480"; break; case 34 : satavg="1490~1520"; break; case 35 : satavg="1530~1560"; break; case 36 : satavg="1570~1600"; break; default : satavg="unknown"; break;} st=0;
+  printf("Enter your ACT 1 Reading score: ");scanf_s("%d", &act1[st]); st++; int act1avg; act1avg = calca(act1,st); /*sat1avg=calcats(act1avg);*/ switch(act1avg){case 9 : satavg = "590~610"; break; case 10 : satavg="620~640"; break; case 11 : satavg="650~680"; break; case 12 : satavg="690~720"; break; case 13 : satavg="730~770"; break; case 14 : satavg="780~820"; break; case 15 : satavg="780~820"; break; case 16 : satavg="880~910"; break; case 17 : satavg="920~950"; break; case 18 : satavg = "960~980"; break; case 19 : satavg ="990~1020"; break; case 20 : satavg="1030~1050"; break; case 21 : satavg="1060~1090"; break; case 22 : satavg="1100~1120"; break; case 23 : satavg="1130~1150"; break; case 24 : satavg="1160~1190"; break; case 25 : satavg="1200~1220"; break; case 26 : satavg="1230~1250"; break; case 27 : satavg="1260~1290"; break; case 28 : satavg="1300~1320"; break; case 29 : satavg="1330~1350"; break; case 30 : satavg="1360~1380"; break; case 31 : satavg="1390~1410"; break; case 32 : satavg="1420~1440"; break; case 33 : satavg="1450~1480"; break; case 34 : satavg="1490~1520"; break; case 35 : satavg="1530~1560"; break; case 36 : satavg="1570~1600"; break; default : satavg="unknown"; break;} st=0;
   printf("\nYour ACT 1 score is: %d and your ACT 1 score translated to SAT 1 is between %s\n\n", act1avg, satavg); Sleep(sleept); break; 
   case 2 : 
  printf("Enter your ACT 2 Math score: ");int act2[2]; scanf_s("%d", &act2[st]); st++;
