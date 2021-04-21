@@ -1,8 +1,8 @@
 //BY SOLO (WINDOWS VERSION)
 #include <stdio.h>
 #include <windows.h>
-int sleept=9999;
-char satavg[255];
+int sleept=99999;
+char *satavg;
 int calca(int t[], int numb); int v;
 //int calcats(int acvg);
 const int maxsat = 1600;const int maxact = 36;const int maxgpa = 40;const int maxgov = 124;
