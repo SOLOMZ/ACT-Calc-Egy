@@ -3,7 +3,7 @@
 
 int calca(int t[], int numb); int v;
 //int calcats(int acvg);
-const int maxsat = 1600;const int maxact = 36;const int maxgpa = 40;const int maxgov = 124;
+const int maxsat = 1600;const int maxact = 36;const int maxgpa = 40;const int maxgov = 124; char *satavg;
 double govuno(double sat1s, double sat2s, double gpas, double diff);
 int main (void)
 {
@@ -16,7 +16,7 @@ printf("   ████████  ██▄            ██        ██�
 printf("  █▀      ██ ▀██▄     ▄▀    ██        ▀██▄     ▄▀ █▀      ██   ██    ▄███▄     ▄▀     ██     ▄███▄     ██     ██\n");
 printf("▄███▄   ▄████▄ ▀▀█████▀   ▄████▄        ▀▀█████▀▄███▄   ▄████▄█████████ ▀▀█████▀    ▄██████████ ▀▀███████   ▄████▄\n\n");
                                                                                                                      
-   int choice; int st=0; char *satavg;
+   int choice; int st=0;
    printf("Choose your test!\n 1: Non-Subject Test\n 2: Subject Test\n 3: Score to Tansiq\n : "); scanf("%d", &choice); switch(choice){ case 1 :
   printf("Enter your ACT 1 Math score: ");int act1[3]; scanf("%d", &act1[st]); st++;
   printf("Enter your ACT 1 English score: ");scanf("%d", &act1[st]); st++;
