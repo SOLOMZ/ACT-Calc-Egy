@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int calca(int t[], int numb); int v;
-int calcats(int acvg); int maxsat = 1600; int maxact = 36; int maxgpa = 40;
+int calcats(int acvg);const int maxsat = 1600;const int maxact = 36;const int maxgpa = 40;
 double govuno(double sat1s, double sat2s, double gpas, double diff);
 int main (void)
 {
@@ -29,7 +29,7 @@ printf("▄███▄   ▄████▄ ▀▀█████▀   ▄█�
   case 3 :  
                         printf("Enter your SAT 1 score: ");int SAT1; scanf("%d", &SAT1);
                         printf("Enter your SAT 2 score: ");int SAT2; scanf("%d", &SAT2); 
-                        printf("Enter your GPA: ");int gpa; scanf("%d", &gpa); int maxgv = 124;
+                        printf("Enter your GPA: ");int gpa; scanf("%d", &gpa);const int maxgv = 124;
                         printf("\nThis score is for which university type?:\n 1: Government University\n 2: Private University\n : "); scanf("%d", &choice); 
                         switch(choice){ case 1 : v = 69; break; case 2 : v = 75; break;}; if(SAT1 < 1090){v=60;};
                         printf("\nYour score is: %lf and the maximum is %d!\n\n", govuno(SAT1, SAT2, gpa, v), maxgv); break;
