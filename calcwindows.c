@@ -10,7 +10,7 @@ double govuno(double sat1s, double sat2s, double gpas, double diff);
 int main (void)
 {
                                                                                                               
-printf("Welcome to ACT Calc Egy!!/n/n");
+printf("Welcome to ACT Calc Egy!!\n\n");
                                                                                                                      
    int choice; int st=0;
    printf("Choose your test!\n 1: Non-Subject Test\n 2: Subject Test\n 3: Score to Tansiq\n : "); scanf_s("%d", &choice); switch(choice){ case 1 :
