@@ -4,7 +4,7 @@
 
 int calca(int t[], int numb);
 int sleept = 99999;
-int calcats(int acvg); int maxsat = 1600; int maxact = 36; int maxgpa = 40; int v;
+int calcats(int acvg); const int maxsat = 1600; const int maxact = 36; const int maxgpa = 40; int v;
 double govuno(double sat1s, double sat2s, double gpas, double diff);
 int main (void)
 {
@@ -23,7 +23,7 @@ int main (void)
   case 3 :
                         printf("Enter your SAT 1 score: ");int SAT1; scanf_s("%d", &SAT1);
                         printf("Enter your SAT 2 score: ");int SAT2; scanf_s("%d", &SAT2);
-                        printf("Enter your GPA: ");int gpa; scanf_s("%d", &gpa); int maxgv = 124;
+                        printf("Enter your GPA: ");int gpa; scanf_s("%d", &gpa); const int maxgv = 124;
                         printf("\nThis score is for which university type?:\n 1: Government University\n 2: Private University\n : "); scanf_s("%d", &choice);
                         switch(choice){ case 1 : v = 69; break; case 2 : v = 75; break;}; if(SAT1 < 1090){v=60;};
                         printf("\nYour score is: %lf and the maximum is %d!\n\n", govuno(SAT1, SAT2, gpa, v), maxgv); Sleep(sleept); break;
